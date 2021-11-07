@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+
+<launch>
+     <!-- Pub Node -->
+     <node name="node_1" pkg="nodes3topics2" type="node_1.py" output="screen"/>
+     <!--  Node -->
+     <node name="node_2" pkg="nodes3topics2" type="node_2.py" output="screen"/>
+     <!-- Sub Node -->
+     <node name="node_3" pkg="nodes3topics2" type="node_3.py" output="screen"/>
+</launch>
